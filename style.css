@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.formlayout{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(grey)(blue);
+    background-position: center;
+    background-size:cover;
+    position: relative
+}
