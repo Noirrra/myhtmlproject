@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.formlayout{
+.header{
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(grey)(blue);
@@ -10,3 +10,46 @@
     background-size:cover;
     position: relative
 }
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 1500px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12p;
+    position: relative;
+}
+.nav-links ul li a {
+    color: beige;
+    text-decoration: none;
+    font: Arial;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 0%;
+    transition: 0s;
+}
+.formlayout {
+    background-color: rgb(84, 77, 77);
+    margin: 20px;
+    font: Arial;
+    padding: 20px;
+    border-radius: 20px;
+
+  }
